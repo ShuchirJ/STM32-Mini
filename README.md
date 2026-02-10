@@ -20,4 +20,29 @@ SIG (4):
 ![alt text](src/renders/image-3.png)
 
 ### BOM
-The bill of materials for this board can be found at [src/PCB/BOM.xlsx](src/PCB/BOM.xlsx). Additionally, 1x20 male headers will be bought separately from AliExpress ([https://www.aliexpress.us/item/2255800867206912.html](https://www.aliexpress.us/item/2255800867206912.html)) and soldered onto the board.
+|Quantity|Comment                      |Value |Manufacturer Part                            |Manufacturer   |Supplier Part|Supplier  |Price |Link                                                |
+|--------|-----------------------------|------|---------------------------------------------|---------------|-------------|----------|------|----------------------------------------------------|
+|1       |1k?                          |1k?   |0603WAF1001T5E                               |UNI-ROYAL(??)  |C21190       |LCSC      |0.0002|                                                    |
+|1       |1N4007                       |      |1N4007                                       |TWGMC(??)      |C727081      |LCSC      |0.0013|                                                    |
+|1       |1uF                          |1uF   |CL10A105KB8NNNC                              |SAMSUNG(??)    |C15849       |LCSC      |0.0009|                                                    |
+|1       |10k?                         |10k?  |0603WAF1002T5E                               |UNI-ROYAL(??)  |C25804       |LCSC      |0.0002|                                                    |
+|1       |10nF                         |10nF  |0603B103K500NT                               |FH(??)         |C57112       |LCSC      |0.0005|                                                    |
+|1       |75?                          |75?   |0603WAF750JT5E                               |UNI-ROYAL(??)  |C4275        |LCSC      |0.0002|                                                    |
+|1       |AMS1117-3.3                  |      |AMS1117-3.3                                  |AMS            |C6186        |LCSC      |0.0286|                                                    |
+|1       |AP2337SA-7                   |      |AP2337SA-7                                   |DIODES(??)     |C150497      |LCSC      |0.0215|                                                    |
+|1       |KT-0603R                     |      |KT-0603R                                     |KENTO          |C2286        |LCSC      |0.001 |                                                    |
+|1       |KT-0805G                     |      |KT-0805G                                     |KENTO          |C2297        |LCSC      |0.0023|                                                    |
+|1       |PHD-2X5A                     |      |PHD-2X5A                                     |BOOMELE(????)  |C49123       |LCSC      |0.0066|                                                    |
+|1       |STM32F072R8T6                |      |STM32F072R8T6                                |ST(?????)      |C87900       |LCSC      |0.2764|                                                    |
+|1       |TYPE-C-31-M-12               |      |TYPE-C-31-M-12                               |????           |C165948      |LCSC      |0.0266|                                                    |
+|2       |2.54-1*20P??                 |      |2.54-1*20P??                                 |BOOMELE(????)  |C50981       |LCSC      |0.0177|                                                    |
+|2       |4.7uF                        |4.7uF |CL10A475KO8NNNC                              |SAMSUNG(??)    |C19666       |LCSC      |0.0015|                                                    |
+|2       |5.1k?                        |5.1k? |0603WAF5101T5E                               |UNI-ROYAL(??)  |C23186       |LCSC      |0.0002|                                                    |
+|2       |TS-1088-AR02016              |      |TS-1088-AR02016                              |XUNPU(??)      |C720477      |LCSC      |0.007 |                                                    |
+|3       |10uF                         |10uF  |CL10A106KP8NNNC                              |SAMSUNG(??)    |C19702       |LCSC      |0.001 |                                                    |
+|3       |LESD5D5.0CT1G                |      |LESD5D5.0CT1G                                |Leiditech(????)|C5246195     |LCSC      |0.0058|                                                    |
+|4       |4.7k?                        |4.7k? |0603WAF4701T5E                               |UNI-ROYAL(??)  |C23162       |LCSC      |0.0002|                                                    |
+|9       |100nF                        |100nF |CC0603KRX7R9BB104                            |YAGEO(??)      |C14663       |LCSC      |0.0004|                                                    |
+|1       |20PCS 1x20 20PIN Single Row Straight Male Pin Header Connector 2.54MM|      |                                             |               |             |AliExpress|2.57  |https://www.aliexpress.us/item/2255800867206912.html|
+|        |                             |      |                                             |               |             |          |      |                                                    |
+|        |                             |      |                                             |               |             |Total     |3.014 |                                                    |
