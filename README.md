@@ -19,6 +19,12 @@ PWR (3):
 SIG (4):
 ![alt text](src/renders/image-3.png)
 
+## Usage
+1. Configure an IDE environment using STM32CubeMX and STM32CubeIDE. [This guide](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:Step2_Blink_LED) walks through the steps to configure the MCU. Use the STM32F072 when asked for an MCU part number
+2. Enter the bootloader: plug the board into a laptop via USB. Hold BOOT and press RESET, then release both.
+3. Build a release file via STM32CubeIDE. You'll find the release .elf file in the build output directory in your project folder
+4. Follow [this guide](https://forum.digikey.com/t/stm32cubeprogrammer-quick-start-guide/28298) from Digikey to load and flash the release elf binary to the devboard.
+
 ### BOM
 |Quantity|Comment                      |Value |Manufacturer Part                            |Manufacturer   |Supplier Part|Supplier  |Price |Link                                                |
 |--------|-----------------------------|------|---------------------------------------------|---------------|-------------|----------|------|----------------------------------------------------|
