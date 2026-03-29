@@ -12,6 +12,7 @@ A small, stm32f072 devboard in the pico form factor! I've played around with the
 3. Build and flash the firmware using `cargo run --release`
 
 Flashing via DFU: 
+
 4. `cargo build --release`
 5. `cargo objcopy --release --bin stm32-blinky -- -O binary target/thumbv6m-none-eabi/release/stm32-blinky.bin`
 6. `rdfu write --start-address 0x08000000 target/thumbv6m-none-eabi/release/stm32-blinky.bin` (or similar command for an alternative dfu utility)
