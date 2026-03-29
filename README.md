@@ -2,7 +2,7 @@
 A small, stm32f072 devboard in the pico form factor! I've played around with the RP2040 and various ESP32 chips for the past few years, but I wanted to try something different. The STM32 series of microcontrollers are very popular especially for low power usage, and I wanted to try using one myself. There's also less abstraction (imo-at least compared to MicroPython) when writing code for the STM32 and I think it'd be a great chance for me to practice my rust a little. 
 
 ![board](board.jpg)
-![render](src/renders/pcb.png)
+![render](renders/pcb.png)
 
 ## Usage
 1. Clone and open the firmware/ folder (or clone the firmware repo directly: [ShuchirJ/stm32-blinky](https://github.com/ShuchirJ/stm32-blinky))
@@ -15,19 +15,19 @@ Flashing via DFU:
 5. `cargo objcopy --release --bin stm32-blinky -- -O binary target/thumbv6m-none-eabi/release/stm32-blinky.bin`
 6. `rdfu write --start-address 0x08000000 target/thumbv6m-none-eabi/release/stm32-blinky.bin` (or similar command for an alternative dfu utility)
 
-![schematic](src/renders/schematic.svg)
+![schematic](renders/schematic.svg)
 
 ## Stackup
 The board follows a SIG-GND-PWR-SIG stackup.
 
 SIG (1):
-![alt text](src/renders/image.png)
+![alt text](renders/image.png)
 
 GND (2):
-![alt text](src/renders/image-1.png)
+![alt text](renders/image-1.png)
 
 PWR (3):
-![alt text](src/renders/image-2.png)
+![alt text](renders/image-2.png)
 
 SIG (4):
-![alt text](src/renders/image-3.png)
+![alt text](renders/image-3.png)
