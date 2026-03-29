@@ -7,9 +7,10 @@ A small, stm32f072 devboard in the pico form factor! I've played around with the
 ## Usage
 1. Clone and open the firmware/ folder (or clone the firmware repo directly: [ShuchirJ/stm32-blinky](https://github.com/ShuchirJ/stm32-blinky))
 2. Install the Rust toolchain and the thumbv6m-none-eabi target (`rustup target add thumbv6m-none-eabi`) 
-3. Build and flash the firmware using `cargo run --release`
 > [!NOTE]
-> This step assumes you are connected via debugger. If you want to flash the firmware using USB, install [rs-dfu](https://github.com/EdgeTX/rs-dfu) (or similar)
+> This step assumes you are connected via SWD debugger. If you want to flash the firmware using USB, install [rs-dfu](https://github.com/EdgeTX/rs-dfu) (or similar) and skip to step 4.
+3. Build and flash the firmware using `cargo run --release`
+
 Flashing via DFU: 
 4. `cargo build --release`
 5. `cargo objcopy --release --bin stm32-blinky -- -O binary target/thumbv6m-none-eabi/release/stm32-blinky.bin`
